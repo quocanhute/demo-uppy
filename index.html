@@ -5,11 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./assets/css/uppy.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-  <script type="module" src="style.js"></script>
+  <!-- <script type="module" src="style.js"></script> -->
+  <script  type="module" src="dist/bundle.js"></script>
+
   <title>Document</title>
 </head>
 <body>
   <h1>Hello World!!! </h1>
   <div id="uppy"></div>
+  <label for="language">Choose a language:</label>
+
+  <select name="language" id="language">
+    <option value="default">English</option>
+    <option value="vi_VN">Tiếng việt</option>
+    <option value="de_DE">German</option>
+  </select>
 </body>
 </html>
